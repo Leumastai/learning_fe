@@ -1,0 +1,17 @@
+h1{
+    border-style: dashed;
+    border-width: 3px;
+    border-color: hsl(300, 100%, 25%);
+    /* you can do the shorcut below as well */
+    /* border: 3px solid rgb(152, 251, 152); */
+    border-radius: 5px;
+}
+p{
+    border-bottom: 3px dashed yellow;
+    border-top: 3px dotted tomato;
+    border-left: 3px solid purple;
+    border-right: 3px double grey;
+
+    border-radius: 11px;
+}
+ 

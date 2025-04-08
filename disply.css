@@ -1,0 +1,53 @@
+#po{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
+span{
+    background-color: burlywood;
+}
+/* 
+display:
+- inline: on a line where it only takes the space to display the text alone
+- block: in a block with a specified width and height
+
+positions in css could be:
+relative = posistioned relative to where it normally
+fixed = positioned relative to the viewport
+absolute = positioned relative to nearest ancestor
+sticky = positioned based on scroll position
+static = default position for an element
+
+combinators in css are::
+    SPACE = decendants
+    > = child
+    ~ = general sibling
+    + = adjacent sibling
+*/
+#container{
+    border: 2px solid;
+}
+/* Descendant
+#container p{
+    background-color: aquamarine;
+} */
+
+/* 
+Child
+#container > p{
+    background-color: tan;
+}
+*/
+
+/* 
+General Siblings
+#container ~ p{
+    background-color: tan;
+} */
+
+/* 
+Adjacent Siblings
+#container + p{
+    background-color: tan;
+}
+*/

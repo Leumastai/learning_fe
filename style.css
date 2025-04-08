@@ -1,0 +1,29 @@
+
+/* it can be used in multiple HTML files. */
+body{
+    background-color: slategrey;
+}
+h1{
+    color: white;
+}
+/* grouping by id */
+#p1{
+    color: rgb(133, 38, 24); 
+}
+#p2{
+    color: wheat; 
+}
+#p3{
+    color: hsl(130, 100%, 93%); 
+}
+#p4{
+    color: #9313e8; 
+}
+
+/* grouping with class */
+.odd{
+    color: aqua;
+}
+.even{
+    color: aliceblue;
+}

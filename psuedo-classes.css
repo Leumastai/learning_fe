@@ -1,0 +1,65 @@
+
+/* Psuedo classes are keywords added to a selector, they modify the behavior of an element when they are in a certain state*/
+a:link{
+    color: rgb(74, 22, 95);
+}
+a:hover{
+    color: hsl(120, 100%, 25%);
+    font-size: 1.5em;
+}
+/* When you hold down the cursor on an element */
+a:active{
+    color: hsl(240, 100%, 50%);
+}
+a:visited{
+    color: hsl(300, 78%, 2%);
+}
+li:hover{
+    background-color: lightyellow;
+}
+/* anyhing not hovered over */
+li:not(:hover){
+    background-color: grey;
+}
+/* li:nth-child(2n){
+    background-color: brown;
+} */
+#greeting p{
+    background-color: beige;
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}
+
+/* Psuedo elements are used to style a specific parts of an elements. using double ::*/
+
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: purple;
+}
+p::selection{
+    color: greenyellow;
+    background-color: darkgrey;
+}
+/* #fruit li::before{
+    content: "✔";
+} */
+#orange::after{
+    content: "🍎";
+}
+#orange::after{
+    content: "🍊";
+}
+#orange::after{
+    content: "🍌";
+}
+#fruit li::marker{
+    content: "✔";
+    color: green;
+    font-size: 1em;
+}

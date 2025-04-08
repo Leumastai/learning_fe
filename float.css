@@ -1,0 +1,17 @@
+/* img one floats around the text */
+.txt{
+    border: 3px solid;
+    display: flow-root;
+}
+#img1{
+    float: left;
+    margin-right: 10px;
+}
+#img2{
+    float: right;
+    margin-right: 10px;
+}
+.oflow{
+    border: 1px solid;
+    overflow: scroll;
+}

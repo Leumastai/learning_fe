@@ -1,0 +1,23 @@
+h1{
+    text-shadow: 3px 3px 5px hsl(0, 100%, 50%), -3px -3px 5px hsl(241, 92%, 50%);
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    box-shadow: 3px 3px 5px;
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250;
+}
+#box2{
+    background-color: red;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+#box3{
+    background-color: goldenrod;
+}
